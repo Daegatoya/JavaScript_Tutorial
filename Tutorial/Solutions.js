@@ -19,7 +19,7 @@ function RemoveHashtag(input){
     //#3
     function NaN(input){
         if(isNaN(input)){
-            console.log("Not a number!")
+           return console.log("Not a number!")
         } else {
             console.log(input);
         }
@@ -42,7 +42,7 @@ function RemoveHashtag(input){
     //#5
     function Params(input, input2){
 if(isNaN(input) || isNaN(input2)){
-console.log("Parameters aren't numbers!")
+return console.log("Parameters aren't numbers!")
 } else {
     var x = input * input2
     var y = x * x
