@@ -337,9 +337,13 @@ called "readline" as an example. This module allows us to read an input within t
 module, you have to execute the command > npm i {module_name}@{version} --save
 */
 
-const readline = require("readline"); //Here, we just included a module to our code.
+const readline = require("readline"); //Here, we just included a module to our code. (> npm i readline --save)
 
-const rl = readline.createInterface({
+const rl = readline.createInterface({ 
+/*
+Here, I'm creating an interface. This is needed in order for the module to work. You can find documentation
+on how it works on internet.
+*/
        input: process.stdin,
        output: process.stdout
 });
@@ -360,13 +364,17 @@ rl.close();
 Another famous module is discord.js, used to create discord bots with node.js. Lets take a quick look at it.
 */
 
-const discord = require("discord.js");
+const discord = require("discord.js"); //(> npm i discord.js@11 --save)
 const bot = new discord.Client();
 const prefix = "!";
 
-bot.on("message", message => {
-if(message.content === prefix + "ping"){
-       message.channel.send("Pong!");
+bot.on("message", msg => { 
+/*
+This one is a bit tricky. It includes an event and a callback. The event being "message" and the callback
+being msg.
+*/
+if(msg.content === prefix + "ping"){
+       msg.channel.send("Pong!");
 }
 });
 
