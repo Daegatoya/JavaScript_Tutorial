@@ -3,7 +3,7 @@ A quick tutorial for JavaScript learner!
 
 ---
 
-**With love, Elizabeth** ❤️
+**With love, Daegatoya** ❤️
          
 <p align="center">
 
