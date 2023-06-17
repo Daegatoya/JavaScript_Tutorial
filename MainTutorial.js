@@ -449,5 +449,5 @@ This will be it for today, I'll start working on more stuff for this tutorial, n
 // - Over - //
 
 /*
-To Be Continues...
+To Be Continued...
 */
