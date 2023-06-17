@@ -1,7 +1,7 @@
 /*
 - JavaScript Tutorial -
 ------------------------
-       By Eli_
+       By Daegatoya
 ------------------------
 */
 
